@@ -3,7 +3,10 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0%;
 }
-
+.flexible-container {
+  display: flex;
+  margin-bottom: 150px;
+}
 .half-width {
   width: 40%;
   float: left;
@@ -16,13 +19,13 @@ h1 {
   border-left: 7px solid;
   border-image: linear-gradient(tomato, tomato);
   border-image-slice: 1;
-  padding-left: 3%;
+  padding-left: 10%;
 }
 h1 span {
   color: orange;
 }
 .half-width img {
-  width: 80%;
+  width: 100%;
 }
 .anchor-button {
   text-decoration: none;
@@ -31,5 +34,24 @@ h1 span {
   border-radius: 5px;
   color: white;
   font-weight: 700;
-  margin-bottom: 20px;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 700px;
+  padding-bottom: 50px;
+}
+h2 span {
+  color: orange;
+}
+.mission {
+  background-color: rgb(188, 217, 255);
+  border-radius: 20px;
+}
+.vission {
+  background-color: rgb(255, 186, 238);
+  border-radius: 20px;
+}
+.goals {
+  background-color: rgb(253, 241, 174);
+  border-radius: 20px;
 }
