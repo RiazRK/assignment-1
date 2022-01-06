@@ -19,7 +19,7 @@ h1 {
   border-left: 7px solid;
   border-image: linear-gradient(tomato, tomato);
   border-image-slice: 1;
-  padding-left: 10%;
+  padding-left: 5%;
 }
 h1 span {
   color: orange;
@@ -54,4 +54,9 @@ h2 span {
 .goals {
   background-color: rgb(253, 241, 174);
   border-radius: 20px;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 700px;
+  padding-bottom: 5px;
 }
